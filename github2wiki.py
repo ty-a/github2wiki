@@ -78,7 +78,6 @@ def login(username, password):
 	}
 	
 	response = post(data)
-	print response
 	
 	if response["login"]["result"] == "Success":
 		print "Now logged in"
